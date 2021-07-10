@@ -378,6 +378,7 @@ rgba(0, 0, 0, 0.12);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-text-color);
   transform: rotate(0.26deg);
 }
 
@@ -392,6 +393,10 @@ rgba(0, 0, 0, 0.12);
   color: var(--title-text-color);
   transform: rotate(0.26deg);
   margin-top: 4px;
+}
+
+.portfolio-item-link {
+text-decoration: none;
 }
 
 .portfolio-item-wrapper {
